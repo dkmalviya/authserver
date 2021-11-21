@@ -7,6 +7,7 @@ server:
   port: 9090
 
 spring:
+  jwt
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     hikari:
