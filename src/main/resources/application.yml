@@ -7,7 +7,7 @@ server:
   port: 9090
 
 spring:
-  jwt
+
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     hikari:
@@ -15,7 +15,7 @@ spring:
       maximum-pool-size: 2
       maximum-idle: 1
       pool-name: data-source
-    url: jdbc:mysql://localhost:3306/expense_planner_db?useSSL=false&useUnicode=yes&characterEncoding=UTF-8
+    url: jdbc:mysql://localhost:3306/expense_planner_db_uat?useSSL=false&useUnicode=yes&characterEncoding=UTF-8
     password: anshuSoft
     username: root
   jpa:
